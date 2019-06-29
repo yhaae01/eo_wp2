@@ -17,17 +17,17 @@
 							<form action="admin/proses_lupapass.php" method="post" class="login-form">
 								<div class="form-group">
 									<label class="sr-only" for="form-username">Username</label>
-									<input type="text" name="username" placeholder="Username ..." maxlength="15" autocomplete="off" required="" class="form-username form-control" id="form-username">
+									<input type="text" name="username" placeholder="Username" maxlength="15" autocomplete="off" required="" class="form-username form-control" id="form-username">
 								</div>
 								<div class="form-group">
 									<label class="sr-only" for="form-password">Password</label>
-									<input id="myInput" type="password" name="password" placeholder="Password  Baru..." autocomplete="off" required="" class="form-password form-control" id="form-password">
+									<input id="myInput" type="password" name="password" placeholder="Password  Baru" autocomplete="off" required="" class="form-password form-control" id="form-password">
 								</div>
 								<div class="form-group">
 									<label class="sr-only" for="form-password">Konfirmasi Password</label>
-									<input id="myInput2" type="password" name="repassword" placeholder="Ulangi Password Baru ..." autocomplete="off" required="" class="form-password form-control" id="form-password">
+									<input id="myInput2" type="password" name="repassword" placeholder="Ulangi Password Baru" autocomplete="off" required="" class="form-password form-control" id="form-password">
 								</div>
-								<button type="submit" class="btn" name="btnReset">Ubah</button>
+								<button type="submit" class="btn btn-success" name="btnReset">Ubah</button>
 							</form>
 						</div>
 					</div>

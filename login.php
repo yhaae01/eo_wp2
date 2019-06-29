@@ -17,11 +17,11 @@
 							<form action="admin/proses_login.php" method="post" class="login-form">
 								<div class="form-group">
 									<label class="sr-only" for="form-username">Username</label>
-									<input type="text" name="username" placeholder="Username ..." maxlength="15" required="" autocomplete="off" class="form-username form-control" id="form-username">
+									<input type="text" name="username" placeholder="Username" maxlength="15" required="" autocomplete="off" class="form-username form-control" id="form-username">
 								</div>
 								<div class="form-group">
 									<label class="sr-only" for="form-password">Password</label>
-									<input id="myInput" type="password" name="password" placeholder="Password ..." required="" autocomplete="off" class="form-password form-control" id="form-password">
+									<input id="myInput" type="password" name="password" placeholder="Password" required="" autocomplete="off" class="form-password form-control" id="form-password">
 								</div>
 								<div class="form-group">
 									<label> <input type="checkbox" class="form-checkbox"> Show Password </label>
@@ -37,7 +37,7 @@
 										}
 									}
 								?>
-								<button type="submit" class="btn" name="login">Masuk</button>
+								<button type="submit" class="btn btn-success" name="login">Masuk</button>
 								<div class="row">
 									<br>
 									<div class="col-sm-6 text-center"> <a href="index.php?page=daftar"> Daftar Akun </div>

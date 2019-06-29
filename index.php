@@ -5,7 +5,6 @@
     <link rel="stylesheet" href="assets/css/bootstrap.css">
     <link rel="stylesheet" href="assets/css/user.css">
     <link rel="stylesheet" href="assets/css/login.css">
-    <link rel="stylesheet" href="assets/css/form-elements.css">
     <link rel="stylesheet" href="assets/css/font-awesome-4.7.0/css/font-awesome.css">
 	<link href='assets/img/logo.png' rel='shortcut icon'>
     <!-- Link buat Java Script -->

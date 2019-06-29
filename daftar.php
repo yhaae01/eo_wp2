@@ -17,17 +17,17 @@
 							<form action="admin/proses_daftar.php" method="post" class="login-form">
 								<div class="form-group">
 									<label class="sr-only" for="form-username">Nama</label>
-									<input type="text" name="nama_adm" placeholder="Nama ..." autocomplete="off" required="" class="form-username form-control" id="form-username">
+									<input type="text" name="nama_adm" placeholder="Nama" autocomplete="off" required="" class="form-username form-control" id="form-username">
 								</div>
 								<div class="form-group">
 									<label class="sr-only" for="form-password">Username</label>
-									<input type="text" name="username" placeholder="Username ..." maxlength="15" autocomplete="off" required="" class="form-password form-control" id="form-password">
+									<input type="text" name="username" placeholder="Username" maxlength="15" autocomplete="off" required="" class="form-password form-control" id="form-password">
 								</div>
 								<div class="form-group">
 									<label class="sr-only" for="form-password">Password</label>
-									<input id="myInput" type="password" name="password" placeholder="Password ..." autocomplete="off" required="" class="form-password form-control" id="form-password">
+									<input id="myInput" type="password" name="password" placeholder="Password" autocomplete="off" required="" class="form-password form-control" id="form-password">
 								</div>
-								<button type="submit" class="btn" name="daftar">Daftar</button>
+								<button type="submit" class="btn btn-success" name="daftar">Daftar</button>
 							</form>
 						</div>
 					</div>

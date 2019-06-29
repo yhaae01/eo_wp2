@@ -40,7 +40,7 @@
 </div>
 
 <!-- Script Footer -->
-<div class="container-fluid bg-grey" >
+<div class="container-fluid" style="margin-left:-15px;margin-right:-15px">
     <h2 class="text-center" style="color: white;">Kontak</h2><br>
     <div class="row" style="color: white;">
         <div class="col-sm-5">
@@ -65,5 +65,5 @@
                 </div>
             </div>
         </div>
-    </div><hr>
+    </div>
 </div>

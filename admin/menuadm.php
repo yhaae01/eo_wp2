@@ -3,17 +3,10 @@
     
 <!-- Script CSS -->
     <link rel="stylesheet" href="../assets/css/bootstrap.css"/>
-    <link rel="stylesheet" href="../assets/css/admin.css"/>
+    <link rel="stylesheet" href="../assets/css/user.css"/>
 	<link href='../assets/img/logo.png' rel='shortcut icon'>
     <link rel="stylesheet" href="../assets/css/font-awesome-4.7.0/css/font-awesome.css"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<style>
-.jumbotron {
-    padding: 150px;
-    background-color: #2980b9;
-    color: white;
-}
-</style>
     <title>Beranda Admin</title>
 </head>
 <body>
