@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jun 04, 2019 at 02:19 AM
+-- Generation Time: Jul 04, 2019 at 03:01 PM
 -- Server version: 10.1.37-MariaDB
 -- PHP Version: 7.2.12
 
@@ -39,7 +39,8 @@ CREATE TABLE `admin` (
 --
 
 INSERT INTO `admin` (`username`, `password`, `nama_adm`) VALUES
-('admin', '21232f297a57a5a743894a0e4a801fc3', 'dhea fahira');
+('admin', '21232f297a57a5a743894a0e4a801fc3', 'dhea fahira'),
+('admin2', 'c84258e9c39059a89ab77d846ddab909', 'surya intan permana');
 
 --
 -- Indexes for dumped tables
