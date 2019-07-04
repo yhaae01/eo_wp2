@@ -8,12 +8,11 @@ body {
     color: white;
 }
 
-.wrap{
+.wrap {
     padding-right: 15px;
     padding-left: 15px;
     margin-right: auto;
     margin-left: auto;
-
 }
 
 .carousel-inner img {
@@ -32,9 +31,11 @@ body {
 .navbar-default .navbar-nav>li>a {
     color: #fff;
 }
+
 .navbar-default {
     background-color: #f8bbd0;
     border-color: #f8bbd0;
+    font-weight: bold;
 }
 
 .navbar-default .navbar-nav>.active>a,
@@ -59,8 +60,3 @@ body {
 .navbar-default .navbar-toggle .icon-bar {
     background-color: #fff;
 }
-
-#text {
-	display:none;
-	color:red;
-	}

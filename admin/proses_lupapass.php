@@ -1,5 +1,6 @@
 <?php
  include '../koneksi.php';
+ 
  if (isset($_POST['btnReset'])) 
  {
   $username = $_POST['username'];
@@ -14,7 +15,7 @@
     ?>
      <script>
       alert("Inputan password tidak sama");
-      window.location.href = 'index.php?page=lupa_pass';
+      window.location.href = '../index.php?page=lupa_pass';
      </script>
     <?php
    }else
@@ -26,7 +27,7 @@
      ?>
       <script>
        alert("Password telah di perbarui");
-       window.location.href = 'index.php?page=login';
+       window.location.href = '../index.php?page=login';
       </script>
      <?php
     }else
@@ -34,7 +35,7 @@
      ?>
       <script>
        alert("Password gagal diperbaharui");
-       window.location.href = 'index.php?page=lupa_pass';
+       window.location.href = '../index.php?page=lupa_pass';
       </script>
      <?php
     }
@@ -44,7 +45,7 @@
    ?>
     <script>
      alert("Pastikan username yang anda masukan benar!");
-     window.location.href = 'lupa_password.php';
+     window.location.href = '../index.php?page=lupa_pass';
     </script>
    <?php
   }

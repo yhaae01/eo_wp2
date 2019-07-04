@@ -23,7 +23,7 @@ $result=mysqli_query($koneksi,"insert into admin values('$username','$password',
             ?>
                 <script>
                 alert("Gagal Mendaftar!");
-                window.location.href = 'index.php?page=daftar';
+                window.location.href = '../index.php?page=daftar';
                 </script>
             <?php
         }

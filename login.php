@@ -1,3 +1,4 @@
+
 <div class="container" style="margin-top:80px">
 	<div class="top-content">
 		<div class="inner-bg">
@@ -26,17 +27,6 @@
 								<div class="form-group">
 									<label> <input type="checkbox" class="form-checkbox"> Show Password </label>
 								</div>
-								<?php
-									if(isset($_GET['pesan'])){
-										if($_GET['pesan'] == "gagal"){
-											echo "Login gagal! username atau password salah!";
-										}else if($_GET['pesan'] == "logout"){
-											echo "Anda telah berhasil logout";
-										}else if($_GET['pesan'] == "belum_login"){
-											echo "Anda harus login untuk mengakses halaman admin";
-										}
-									}
-								?>
 								<button type="submit" class="btn btn-success" name="login">Masuk</button>
 								<div class="row">
 									<br>

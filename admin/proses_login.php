@@ -1,7 +1,7 @@
 <?php 
+ 
 // mengaktifkan session php
 session_start();
- 
 // menghubungkan dengan koneksi
 include '../koneksi.php';
  
@@ -22,6 +22,6 @@ if($cek > 0){
 	$_SESSION['status'] = "login";
 	header("location:menuadm.php");
 }else{
-	header("location:../login.php?pesan=gagal");
+	header("location:../index.php?page=login");
 }
 ?>

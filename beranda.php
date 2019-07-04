@@ -42,7 +42,7 @@
 <!-- Script Footer -->
 <div class="container-fluid" style="margin-left:-15px;margin-right:-15px">
     <h2 class="text-center" style="color: white;">Kontak</h2><br>
-    <div class="row" style="color: white;">
+    <div class="row" style="color: white; font-weight:bold;">
         <div class="col-sm-5">
             <p>Contact us and we'll get back to you within 24 hours.</p>
             <p><span class="fa fa-map-marker"></span> Jalan Letjen T. B. Simatupang Kav. 88</p>
